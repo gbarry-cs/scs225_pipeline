@@ -1,1 +1,1 @@
-# scs225_pipeline
+# scs225_pipeline v1.0
