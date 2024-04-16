@@ -44,8 +44,3 @@ jobs:
       run: |
         mkdir -p ${{ github.workspace }}/mock-deployment
         cp ${{ env.ARTIFACT_PATH }} ${{ github.workspace }}/mock-deployment/
-
-#    - name: Print environment secret
-#      env:
-#        SECRET_API_KEY: ${{ secrets.API_KEY }}
-#      run: echo "Using API Key: $SECRET_API_KEY"
