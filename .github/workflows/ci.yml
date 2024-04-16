@@ -47,5 +47,5 @@ jobs:
 
     - name: Print environment secret
       env:
-        SECRET_API_KEY: ${{ secrets.SECRET_API_KEY }}
+        SECRET_API_KEY: ${{ secrets.API_KEY }}
       run: echo "Using API Key: $SECRET_API_KEY"
